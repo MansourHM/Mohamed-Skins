@@ -1,0 +1,331 @@
+body {
+    background: linear-gradient(rgb(142, 198, 238),rgb(142, 198, 230));
+}
+
+header img {
+    width: 320px;
+}
+
+header .tiro1 {
+    transform: rotateY(180deg);
+}
+
+header  {
+    display: flex;
+    background: linear-gradient(rgb(189, 184, 236),rgb(142, 198, 238));
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Permanent Marker", monospace;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    justify-content: space-around;
+    font-size: 20px;
+    
+    margin: auto;
+}
+
+nav a {
+    border-radius: 5px;
+    background-color: rgb(104, 207, 238);
+    border-width: 10px;
+    padding: 6px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: "Permanent Market", monospace;
+    align-items: center;
+    border: double;
+    width: 200px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: rgb(197, 155, 236);
+    font-weight: bold;
+    border: double;
+}
+
+#first .greatings {
+    font-family: "Permanent Marker", monospace;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+#second .content {
+    font-size: 20px;
+    font-family: "arial";
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+#third .partners h3 {
+    font-family: "Permanent Marker", monospace;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+
+#third .teams {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    
+    
+}
+
+#third .teams img {
+    max-width: 250px;
+    object-fit: contain;
+}
+
+#third .teams .vital {
+    width: 200px;
+}
+
+
+#produtos {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#produtos a {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(84, 87, 240);
+    width: 300px;
+    text-align: center;
+    
+    color: rgb(237, 247, 247);
+    padding: 20px;
+    border: double;
+    
+}
+
+#produtos a:hover {
+
+    background-color: white;
+    color: black;
+    font-weight: bold;
+
+}
+
+footer .midias {
+
+    
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    margin-top: 150px;
+    
+    background: linear-gradient(rgb(142, 198, 238), rgb(144, 134, 231));
+    
+}
+
+footer img {
+    padding: 20px;
+    width: 100px;
+
+    
+}
+
+
+/*CSS DA PAGINA DE CONTATO*/
+
+main form {
+
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+/*CSS DA PAGINA DE PRODUTOS*/
+
+main .servico img{
+
+max-width: 300px;
+
+}
+
+main #classes {
+
+margin-top: 100px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+text-align: center;
+align-items: center;
+padding: 0px 10px;
+color: black;
+font-weight: bold;
+
+}
+
+#classes .servico img {
+
+    object-fit: contain;
+    width: 300px;
+    height: 300px;
+    border: double;
+    border-radius: 20px;
+    
+ }
+
+#classes .servico img:hover {
+
+    background-color: white;
+    transform: scale(1.05) translatey(-3px);
+
+}
+
+footer .comprar {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.comprar a {
+
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    margin: 20px 0;
+    border: 2px solid black;
+    background-color:  rgb(73, 216, 235);
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+
+.comprar a:hover {
+
+    background-color: white ;
+}
+
+/*CONFIGURAÇÃO DE RESOLUÇÕES PRO SITE*/
+
+@media (max-width: 2560px) {
+
+header {
+
+justify-content: space-around;
+
+}
+
+ }
+
+ @media (max-width: 768px) {
+
+header {
+
+    flex-direction: column;
+}   
+
+#third .teams {
+
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+ }
+
+@media (max-width: 425px) {
+
+footer .midias img{
+
+    width: 35px;
+}
+
+main #classes {
+
+    justify-content: center;
+
+}
+
+}
+
+@media (max-width: 375px) {
+
+header h1 {
+
+    font-size: 40px;
+
+}
+
+form textarea {
+    
+    width: 230px;
+}
+
+}
+
+@media (max-width: 320px) {
+
+header h1 {
+
+        font-size: 30px;
+        
+}
+header img {
+
+width: 100%;
+
+}
+
+footer .midias {
+
+    flex-wrap: wrap;
+
+}
+
+form textarea {
+    
+    width: 230px;
+}
+
+ }
+
+ @media (min-width: 2560px) {
+
+ main {
+
+    height: calc (100vh - 650px);
+
+ } 
+  
+    
+    
+ }  
+ 
+ 
