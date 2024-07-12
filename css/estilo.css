@@ -135,12 +135,10 @@ nav a:hover {
 
 footer .midias {
 
-    
     display: flex;
     gap: 30px;
     justify-content: space-around;
     margin-top: 150px;
-    
     background: linear-gradient(rgb(142, 198, 238), rgb(144, 134, 231));
     
 }
